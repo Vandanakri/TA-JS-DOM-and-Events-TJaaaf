@@ -33,3 +33,42 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/*Flex*/
+
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/*Images*/
+
+
+.full-width {
+  width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+/*Headings*/
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
