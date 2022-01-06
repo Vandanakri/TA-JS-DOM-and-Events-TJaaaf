@@ -1,0 +1,72 @@
+/* CSS Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 2rem;
+}
+.form {
+  margin-top: 1rem;
+  
+}
+.form-control {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+input {
+  width: 22vw;
+  height: 2rem;
+}
+button {
+  width: 22vw;
+  height: 2rem;
+  margin: .5rem;
+  background-color: rgb(73, 75, 75);
+  color: aliceblue;
+  font-weight: 900;
+ 
+}
+body {
+  background-color: rgb(201, 207, 212);
+}
